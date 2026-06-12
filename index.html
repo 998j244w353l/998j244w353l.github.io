@@ -1,59 +1,154 @@
+```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Lim Jiwoong</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jiwoong Lim</title>
+    <style>
+        body {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        nav {
+            margin-bottom: 40px;
+        }
+
+        nav a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: #0066cc;
+        }
+
+        img {
+            width: 220px;
+            border-radius: 12px;
+        }
+
+        section {
+            margin-top: 50px;
+        }
+
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .profile {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 700px) {
+            .profile {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
 </head>
+
 <body>
-  <nav>
+
+<nav>
     <a href="#about">About</a>
     <a href="#cv">CV</a>
     <a href="#projects">Projects</a>
     <a href="#courses">Courses</a>
     <a href="#contact">Contact</a>
     <a href="#ai">AI Usage</a>
-  </nav>
+</nav>
 
-  <h1>Lim Jiwoong</h1>
-  <p>Computer Science and Engineering, Seoul National University</p>
+<div class="profile">
+    <img src="assets/avatar.jpg" alt="Profile Avatar">
 
-  <section id="about">
+    <div>
+        <h1>Jiwoong Lim</h1>
+        <p>Computer Science and Engineering<br>
+        Seoul National University</p>
+    </div>
+</div>
+
+<section id="about">
     <h2>About Me</h2>
-    <p>I am interested in cryptography, quantum computing, pure mathematics.</p>
-  </section>
 
-  <section id="cv">
+    <p>
+        Undergraduate student at Seoul National University interested in
+        cryptography, quantum computing, and pure mathematics.
+    </p>
+</section>
+
+<section id="cv">
     <h2>CV / Resume</h2>
-    <p>Education: Seoul National University, Computer Science and Engineering</p>
-    <p>Skills: C++, Python, Java</p>
-  </section>
 
-  <section id="projects">
+    <h3>Education</h3>
+
+    <p>
+        Seoul National University<br>
+        B.S. in Computer Science and Engineering
+    </p>
+
+    <h3>Skills</h3>
+
+    <ul>
+        <li>C++</li>
+        <li>Linux</li>
+    </ul>
+
+    <h3>Research Interests</h3>
+
+    <ul>
+        <li>Cryptography</li>
+        <li>Quantum Computing</li>
+        <li>Pure Mathematics</li>
+    </ul>
+</section>
+
+<section id="projects">
     <h2>Projects</h2>
-    <ul>
-      <li>FPGA CPU Design Project</li>
-      <li>CIFAR-100 CNN Classification Project</li>
-    </ul>
-  </section>
 
-  <section id="courses">
+    <ul>
+        <li>Algebraic Geometry Study Project</li>
+        <li>Qiskit Quantum Computing Practice</li>
+    </ul>
+</section>
+
+<section id="courses">
     <h2>Planned Courses</h2>
+
     <ul>
-      <li>Cryptography</li>
-      <li>Quantum Computing</li>
-      <li>Machine Learning</li>
+        <li>Algebraic Topology</li>
     </ul>
-  </section>
+</section>
 
-  <section id="contact">
+<section id="contact">
     <h2>Contact</h2>
-    <p>Email: jiungim19@gmail.com</p>
-    <p>GitHub: jiungim19</p>
-  </section>
 
-  <section id="ai">
+    <p>Email: chick1107@snu.ac.kr</p>
+</section>
+
+<section id="ai">
     <h2>AI Usage</h2>
+
     <p>Tool: ChatGPT</p>
-    <p>Prompt: Build a responsive personal website for a Seoul National University Computer Science student.</p>
-  </section>
+
+    <p>
+        Prompt: Create a responsive personal website for a Seoul National University
+        Computer Science student with sections for About, CV, Projects,
+        Courses, Contact, and AI Usage.
+    </p>
+</section>
+
 </body>
 </html>
+```
+
